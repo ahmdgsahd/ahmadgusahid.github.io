@@ -44,3 +44,38 @@ body {
 .card {
   background-color: #212121;
 }
+
+input {
+  background: transparent !important;
+  border: none !important;
+  border-radius: 0 !important;
+  border-bottom: 1px solid #4f4f4f !important;
+}
+
+textarea:hover,
+input:hover,
+textarea:active,
+input:active,
+textarea:focus,
+input:focus,
+button:focus,
+button:active,
+button:hover,
+label:focus,
+.btn:active,
+.btn.active {
+  outline: 0px !important;
+  -webkit-appearance: none;
+  box-shadow: none !important;
+  color: grey !important;
+}
+
+span {
+  color: #4f4f4f;
+}
+
+textarea {
+  background: transparent !important;
+  border-radius: 0 !important;
+  border: 1px solid #4f4f4f !important;
+}
